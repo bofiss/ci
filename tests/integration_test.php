@@ -13,7 +13,7 @@ $count = $db->exec("
     (number)
   VALUES
     (1),
-    (2),
+    (4),
     (10),
     (42),
     (0),
