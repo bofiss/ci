@@ -10,5 +10,5 @@ env:
 services:
   - mysql
 
-before_script: ./tests/setup_mysql.php
-script: ./tests/integration_test.php
+before_script: sudo ./tests/setup_mysql.php
+script: sudo ./tests/integration_test.php

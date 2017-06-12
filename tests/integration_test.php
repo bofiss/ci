@@ -1,5 +1,5 @@
 #!/usr/bin/env php
-<?php
+ <?php
 
 $mysql_host = getenv('MYSQL_HOST') ?: 'localhost';
 $mysql_user = getenv('MYSQL_USER') ?: 'root';
